@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "popper.js": "^1.16.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0"
   },
@@ -15,8 +16,12 @@
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-router": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
+    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap-loader": "^3.0.4",
+    "jquery": "^3.5.1",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
+    "tether": "^1.4.7",
     "vue-template-compiler": "^2.6.11"
   }
 }
