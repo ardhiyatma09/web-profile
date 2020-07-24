@@ -1,30 +1,23 @@
 <template>
   <div>
-    <section class="about_area section_gap" id="about" style="padding:150px 0">
-      <div class="container">
-        <div class="row justify-content-start align-items-center">
-          <div class="col-lg-5">
-            <div class="about_img">
-              <img class="" src="assets/img/about-us.png" alt="" />
+    <section class="home_banner_area">
+      <div class="banner_inner" id="hello">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 animate__animated animate__fadeIn">
+              <div class="banner_content">
+                <h3 class="text-uppercase">Hell0</h3>
+                <h1 class="text-uppercase">I am Ardhiyatma</h1>
+                <h5 class="text-uppercase">Web Developer</h5>
+                <div class="d-flex align-items-center">
+                  <a class="primary_btn tr-bg" href="#"><span>Get CV</span></a>
+                </div>
+              </div>
             </div>
-          </div>
-
-          <div class="offset-lg-1 col-lg-5">
-            <div class="main_title text-left">
-              <h2>
-                let’s <br />
-                Introduce about <br />
-                myself
-              </h2>
-              <p>
-                Hello, my fullname is
-                <span style="font-weight:600;color:rgb(68, 87, 220)"
-                  >Ardhiyatma Raditya Wibawa</span
-                >. I am a Junior Web Developer. Graduated from school in 2019
-              </p>
-              <p>
-                Dah gitu aja, masih bingung ngerangkai kata kata hehehe
-              </p>
+            <div class="col-lg-5 animate__animated animate__fadeIn">
+              <div class="home_right_img">
+                <img class="" src="assets/img/banner/home-right.png" alt="" />
+              </div>
             </div>
           </div>
         </div>

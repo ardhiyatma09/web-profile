@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import jQuery from 'jquery'
 global.$ = jQuery
+import "animate.css/animate.css"
 
 
 Vue.config.productionTip = false

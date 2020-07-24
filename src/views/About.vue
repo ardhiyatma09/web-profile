@@ -1,23 +1,30 @@
 <template>
   <div>
-    <section class="home_banner_area">
-      <div class="banner_inner" id="hello">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7">
-              <div class="banner_content">
-                <h3 class="text-uppercase">Hell0</h3>
-                <h1 class="text-uppercase">I am Ardhiyatma</h1>
-                <h5 class="text-uppercase">Web Developer</h5>
-                <div class="d-flex align-items-center">
-                  <a class="primary_btn tr-bg" href="#"><span>Get CV</span></a>
-                </div>
-              </div>
+    <section class="about_area section_gap" id="about" style="padding:150px 0">
+      <div class="container">
+        <div class="row justify-content-start align-items-center">
+          <div class="col-lg-5 animate__animated animate__slideInDown">
+            <div class="about_img ">
+              <img class="" src="assets/img/about-us.png" alt="" />
             </div>
-            <div class="col-lg-5">
-              <div class="home_right_img">
-                <img class="" src="assets/img/banner/home-right.png" alt="" />
-              </div>
+          </div>
+
+          <div class="offset-lg-1 col-lg-5 animate__animated animate__slideInUp">
+            <div class="main_title text-left">
+              <h2>
+                let’s <br />
+                Introduce about <br />
+                myself
+              </h2>
+              <p>
+                Hello, my fullname is
+                <span style="font-weight:600;color:rgb(68, 87, 220)"
+                  >Ardhiyatma Raditya Wibawa</span
+                >. I am a Junior Web Developer. Graduated from school in 2019
+              </p>
+              <p>
+                Dah gitu aja, masih bingung ngerangkai kata kata hehehe
+              </p>
             </div>
           </div>
         </div>
@@ -26,39 +33,8 @@
   </div>
 </template>
 
-// <script>
-// export default {
-//   name: "about",
-//   mounted() {
-//     this.$nextTick(() => {
-//       var nav_offset_top = $("header").height() + 50;
-//       if ($(".header_area").length) {
-//         $(window).scroll(function() {
-//           var scroll = $(window).scrollTop();
-//           if (scroll >= nav_offset_top) {
-//             $(".header_area").addClass("navbar_fixed");
-//           } else {
-//             $(".header_area").removeClass("navbar_fixed");
-//           }
-//         });
-//       }
-
-//       $("a[href*=\\#]:not([href=\\#])").on("click", function() {
-//         var target = $(this.hash);
-//         target = target.length
-//           ? target 
-//           : $("[name=" + this.hash.substr(1) + "]");
-//         if (target.length) {
-//           $("html,body").animate(
-//             {
-//               scrollTop: target.offset().top,
-//             },
-//             1000
-//           );
-//           return false;
-//         }
-//       });
-//     });
-//   },
-// };
-// </script>
+<script>
+export default {
+  props:['main-title']
+}
+</script>

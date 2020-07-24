@@ -5,9 +5,9 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <h1 class="text-uppercase text-center">Skill individual</h1>
+              <h1 class="text-uppercase text-center animate__animated animate__slideInDown">Skill individual</h1>
               <div class="content mt-5">
-                <div class="my-8" style="font-size:20px;">
+                <div class="my-8 animate__animated animate__fadeIn" style="font-size:20px;">
                   <div class="flex mb-4">
                     <i class="devicon-laravel-plain-wordmark colored"></i
                     ><span> Laravel</span>
@@ -39,7 +39,7 @@
                     ><span> jQuery</span>
                     <div class="meter mt-3">
                       <span
-                        style="width:70%;background-color:rgb(7, 105, 173);"
+                        style="width:50%;background-color:rgb(7, 105, 173);"
                       ></span>
                     </div>
                   </div>
@@ -71,18 +71,21 @@
     </div>
 </template>
 
-<style lang="sass" scoped>
-.meter
-  height: 20px
-  position: relative
-  background : #dbd7d2
-  border-radius : 25px
-  padding : 10px
-  span
-    position : absolute
-    height : 100%
-    top : 0
-    left : 0
-    border-bottom-left-radius : 25px
-    border-top-left-radius : 25px
+<style lang="scss">
+.meter{
+  height: 20px;
+  position: relative;
+  background : #dbd7d2;
+  border-radius : 25px;
+  padding : 10px;
+
+  span{
+    position : absolute;
+    height : 100%;
+    top : 0;
+    left : 0;
+    border-bottom-left-radius : 25px;
+    border-top-left-radius : 25px;
+  }
+}
 </style>
